@@ -1,0 +1,12 @@
+h1{
+    background-color: blue;
+}
+/* p::before{
+
+} */
+p::after{
+    content:"We have Done successfully";
+    background-color: aqua;
+    font-size:xx-large;
+    font-family:medium;
+}
