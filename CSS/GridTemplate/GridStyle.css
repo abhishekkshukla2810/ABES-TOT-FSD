@@ -1,6 +1,5 @@
 .box{
     display: grid;
-
     height: 600px;
     width: 800px;
     border: 1px solid red;
@@ -18,10 +17,15 @@
    
 }
 .box2{
+    display: grid;
     height: 150px;
     width: 150px;
-    border: 1px solid red;
-    background-color: antiquewhite;
+    border: 1px solid blue;
+    background-color: aqua;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
     
 }
 .box3{
@@ -37,4 +41,17 @@
     border: 1px solid blue;
     background-color: azure;
     
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .image {
+  width: 50%;
+}
+
+.container img {
+  width: calc(100% - (20px * 2));
+  margin: 20px;
 }
