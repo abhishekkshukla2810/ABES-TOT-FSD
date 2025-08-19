@@ -6,7 +6,7 @@
     width: 800px;
     margin: 50px;
     background-color: antiquewhite;
-    flex-direction:column;
+    flex-direction:column-reverse;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-evenly;
