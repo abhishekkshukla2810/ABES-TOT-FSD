@@ -9,6 +9,7 @@
     height: 150px;
     width: 150px;
     border: 1px solid blue;
+    background-color: aqua;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -20,17 +21,20 @@
     height: 150px;
     width: 150px;
     border: 1px solid red;
+    background-color: antiquewhite;
     
 }
 .box3{
     height: 150px;
     width: 150px;
     border: 1px solid palegreen;
+    background-color: blueviolet;
     
 }
 .box4{
     height: 150px;
     width: 150px;
     border: 1px solid blue;
+    background-color: azure;
     
 }
